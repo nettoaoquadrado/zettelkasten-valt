@@ -1,0 +1,27 @@
+# Diário - estritamente privado, não sincronizar
+Diario/
+
+# Dados sensíveis - NÃO sincronizar
+Compras/
+Saude/
+
+# Imagens do diário e derivados - NUNCA sincronizar (ficam em Diario/_assets/)
+assets/diario-*
+assets/*nuvem-de-palavras*
+*diario-*.jpg
+*diario-*.jpeg
+*diario-*.png
+*nuvem-de-palavras*
+
+# Arquivos temporários do OS
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários do Obsidian
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Backups
+*.bak
+*~

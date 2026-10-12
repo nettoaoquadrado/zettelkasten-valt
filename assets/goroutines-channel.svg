@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" font-family="sans-serif" font-size="14">
+<rect width="640" height="220" fill="#fafafa"/>
+<text x="320" y="26" text-anchor="middle" font-size="18" font-weight="bold">Comunicação via channel</text>
+<rect x="30" y="70" width="150" height="80" rx="10" fill="#e3f2fd" stroke="#1976d2"/>
+<text x="105" y="105" text-anchor="middle" font-weight="bold">goroutine A</text>
+<text x="105" y="127" text-anchor="middle" fill="#555">ch &lt;- valor</text>
+<rect x="240" y="95" width="160" height="30" fill="#fff9c4" stroke="#f9a825"/>
+<g stroke="#f9a825"><line x1="293" y1="95" x2="293" y2="125"/><line x1="346" y1="95" x2="346" y2="125"/></g>
+<text x="320" y="150" text-anchor="middle" fill="#555">chan T (buffer)</text>
+<rect x="460" y="70" width="150" height="80" rx="10" fill="#e8f5e9" stroke="#388e3c"/>
+<text x="535" y="105" text-anchor="middle" font-weight="bold">goroutine B</text>
+<text x="535" y="127" text-anchor="middle" fill="#555">v := &lt;-ch</text>
+<g stroke="#333" stroke-width="2" fill="#333"><line x1="180" y1="110" x2="236" y2="110"/><line x1="400" y1="110" x2="456" y2="110"/></g>
+<text x="320" y="195" text-anchor="middle" fill="#555" font-style="italic">"Não comunique compartilhando memória; compartilhe memória comunicando."</text>
+</svg>
