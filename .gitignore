@@ -1,27 +1,19 @@
-# Diário - estritamente privado, não sincronizar
+# Este repo contem SOMENTE anotacoes (Fleeting/Literature/Permanent/MOC) e os
+# assets referenciados por elas. Nada de vida pessoal entra aqui.
+
+# Guarda paranoica: qualquer coisa de diario/saude/compras fica fora
+Pessoal/
 Diario/
-
-# Dados sensíveis - NÃO sincronizar
-Compras/
 Saude/
-
-# Imagens do diário e derivados - NUNCA sincronizar (ficam em Diario/_assets/)
-assets/diario-*
-assets/*nuvem-de-palavras*
-*diario-*.jpg
-*diario-*.jpeg
-*diario-*.png
+Compras/
+*diario-*
 *nuvem-de-palavras*
 
-# Arquivos temporários do OS
+# Lixo de OS / Obsidian
 .DS_Store
 Thumbs.db
-
-# Arquivos temporários do Obsidian
 .obsidian/workspace*
 .obsidian/cache
 .obsidian/plugins/*/data.json
-
-# Backups
 *.bak
 *~
